@@ -15,7 +15,9 @@
 
 ---
 
-## 🛠️ Technical Stack## Frontend (Client)
+## 🛠️ Technical Stack
+
+## Frontend (Client)
 
 - Framework: React 19
 - Build Tool: Vite

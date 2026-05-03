@@ -37,32 +37,29 @@
 
 ## 📁 Project Structure
 
+```text
 fullstack-phonebook/
-|
-├── backend/ # Express Server
-|
-│─| dist/ # Built React frontend files (Static)
-│ ├── models/ # Mongoose Person schema & validation
-│ ├── requests/ # .rest files for API testing
-│ ├── index.js # Express server entry point
-│ ├── mongo.js # Database utility script
-│ ├── .env # Secrets (Local only)
-│ └── package.json  
-|
-└── frontend/ # React Client Logic
-|
-├── src/
-│ ├── components/ # UI Components (List, Form, Filter)
-│ ├── services/ # Axios API communication logic
-│ ├── i18n/ # Translation JSONs & config
-│ ├── hooks/ # Custom logic hooks
-│ └── contexts/ # Global state management
-├── public/ # Static assets & icons
-├── index.html # Root template
-├── vite.config.js # Build & Proxy configuration
-└── package.json
+├── backend/                # Express Server Logic
+│   ├── dist/               # Built React frontend files (Static)
+│   ├── models/             # Mongoose Person schema & validation
+│   ├── requests/           # .rest files for API testing
+│   ├── index.js            # Express server entry point
+│   ├── mongo.js            # Database utility script
+│   ├── .env                # Secrets (Local only)
+│   └── package.json        
+└── frontend/               # React Client Logic
+    ├── src/
+    │   ├── components/     # UI Components (List, Form, Filter)
+    │   ├── services/       # Axios API communication logic
+    │   ├── i18n/           # Translation JSONs & config
+    │   ├── hooks/          # Custom logic hooks
+    │   └── contexts/       # Global state management
+    ├── public/             # Static assets & icons
+    ├── index.html          # Root template
+    ├── vite.config.js      # Build & Proxy configuration
+    └── package.json
+```
 
----
 
 ## ⚙️ Quick Start Guide## 1. Clone & Install
 

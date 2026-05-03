@@ -61,9 +61,12 @@ fullstack-phonebook/
 ```
 
 
-## ⚙️ Quick Start Guide## 1. Clone & Install
+## ⚙️ Quick Start Guide 
 
-git clone https://github.com/Eng-Nhshl/fullstack-phonebook.git
+## 1. Clone & Install
+
+git clone https://github.com/Eng-Nhshl/fullstack-phonebook.git 
+
 cd fullstack-phonebook
 
 # Setup Backend
@@ -78,8 +81,10 @@ cd ../frontend && npm install
 
 Create a .env file in the backend/ directory:
 
-MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/phonebook
-JWT_SECRET=Your Secret Key
+MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/phonebook 
+
+JWT_SECRET=Your Secret Key 
+
 PORT=3001
 
 ## 3. Run Development Servers

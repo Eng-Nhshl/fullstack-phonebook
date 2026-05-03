@@ -38,15 +38,19 @@
 ## 📁 Project Structure
 
 fullstack-phonebook/
-├── backend/ # Express Server Logic
-│ ├── dist/ # Built React frontend files (Static)
+|
+├── backend/ # Express Server
+|
+│─| dist/ # Built React frontend files (Static)
 │ ├── models/ # Mongoose Person schema & validation
 │ ├── requests/ # .rest files for API testing
 │ ├── index.js # Express server entry point
 │ ├── mongo.js # Database utility script
 │ ├── .env # Secrets (Local only)
 │ └── package.json  
+|
 └── frontend/ # React Client Logic
+|
 ├── src/
 │ ├── components/ # UI Components (List, Form, Filter)
 │ ├── services/ # Axios API communication logic

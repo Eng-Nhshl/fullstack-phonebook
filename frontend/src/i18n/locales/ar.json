@@ -1,0 +1,169 @@
+{
+  "app": {
+    "title": "تطبيق دفتر الهاتف",
+    "loading": "جاري التحميل..."
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "loginTitle": "تسجيل الدخول إلى دفتر الهاتف",
+    "registerTitle": "إنشاء حساب في دفتر الهاتف",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "username": "اسم المستخدم",
+    "loginButton": "تسجيل الدخول",
+    "registerButton": "إنشاء حساب",
+    "loggingIn": "جاري تسجيل الدخول...",
+    "registering": "جاري إنشاء الحساب...",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "registerHere": "أنشئ حساباً هنا",
+    "loginHere": "سجل دخولك هنا",
+    "welcomeBack": "مرحباً بعودتك، {{name}}!",
+    "welcomeNew": "مرحباً، {{name}}! تم إنشاء الحساب بنجاح.",
+    "loginFailed": "فشل تسجيل الدخول",
+    "registrationFailed": "فشل إنشاء الحساب"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "إحصائيات جهات الاتصال الخاصة بك في لمحة",
+    "totalContacts": "إجمالي جهات الاتصال",
+    "favorites": "المفضلة",
+    "withEmail": "مع بريد إلكتروني",
+    "recent": "الحديثة (7 أيام)",
+    "newlyAdded": "المضافة حديثاً",
+    "ofTotal": "من الإجمالي",
+    "categories": "الفئات",
+    "popularTags": "العلامات الشائعة",
+    "contactDetails": "تفاصيل جهات الاتصال",
+    "secondaryPhones": "أرقام الهاتف الثانوية",
+    "withAddress": "جهات الاتصال مع العنوان",
+    "professionalContacts": "جهات الاتصال المهنية",
+    "birthdaysRecorded": "أعياد الميلاد المسجلة",
+    "emptyMessage": "أضف بعض جهات الاتصال لرؤية الإحصائيات هنا!"
+  },
+  "filters": {
+    "title": "البحث والتصفية",
+    "search": "البحث",
+    "searchPlaceholder": "البحث بالاسم، الهاتف، البريد الإلكتروني، الشركة، العلامات...",
+    "category": "الفئة",
+    "tag": "العلامة",
+    "favorites": "المفضلة",
+    "email": "البريد الإلكتروني",
+    "sortBy": "ترتيب حسب",
+    "clearFilters": "مسح جميع المرشحات",
+    "contacts": "جهة اتصال",
+    "categories": {
+      "all": "الكل",
+      "family": "العائلة",
+      "work": "العمل",
+      "friends": "الأصدقاء",
+      "emergency": "الطوارئ",
+      "other": "أخرى"
+    },
+    "favoriteOptions": {
+      "all": "الكل",
+      "favorites": "المفضلة",
+      "nonFavorites": "غير المفضلة"
+    },
+    "emailOptions": {
+      "all": "الكل",
+      "withEmail": "مع بريد إلكتروني",
+      "withoutEmail": "بدون بريد إلكتروني"
+    },
+    "sortOptions": {
+      "nameAsc": "الاسم أ-ي",
+      "nameDesc": "الاسم ي-أ",
+      "newest": "الأحدث أولاً",
+      "oldest": "الأقدم أولاً",
+      "category": "حسب الفئة",
+      "favoritesFirst": "المفضلة أولاً"
+    },
+    "allTags": "جميع العلامات"
+  },
+  "categories": {
+    "family": "العائلة",
+    "work": "العمل",
+    "friends": "الأصدقاء",
+    "emergency": "الطوارئ",
+    "other": "أخرى"
+  },
+  "contacts": {
+    "addNewContact": "إضافة جهة اتصال جديدة",
+    "editContact": "تعديل جهة الاتصال",
+    "addContact": "إضافة جهة اتصال",
+    "updateContact": "تحديث جهة الاتصال",
+    "cancelEdit": "إلغاء التعديل",
+    "yourContacts": "جهات الاتصال الخاصة بك",
+    "noContacts": "لم يتم العثور على جهات اتصال. أضف جهة الاتصال الأولى أعلاه!",
+    "phone": "الهاتف",
+    "secondary": "الثانوي",
+    "email": "البريد",
+    "company": "الشركة",
+    "address": "العنوان",
+    "birthday": "تاريخ الميلاد",
+    "tags": "العلامات",
+    "notes": "الملاحظات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "favorite": "إضافة للمفضلة",
+    "addToFavorites": "إضافة للمفضلة",
+    "removeFromFavorites": "إزالة من المفضلة"
+  },
+  "form": {
+    "basicInfo": "المعلومات الأساسية",
+    "contactInfo": "معلومات الاتصال",
+    "professionalInfo": "المعلومات المهنية",
+    "personalInfo": "المعلومات الشخصية",
+    "notes": "الملاحظات",
+    "name": "الاسم",
+    "category": "الفئة",
+    "primaryPhone": "الهاتف الأساسي",
+    "secondaryPhone": "الهاتف الثانوي",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "company": "الشركة",
+    "jobTitle": "المسمى الوظيفي",
+    "birthday": "تاريخ الميلاد",
+    "tags": "العلامات (مفصولة بفواصل)",
+    "tagsPlaceholder": "مثال: الجامعة، عميل، مهم",
+    "tagsHelp": "افصل العلامات المتعددة بفواصل",
+    "notesPlaceholder": "ملاحظات إضافية حول جهة الاتصال هذه...",
+    "addressPlaceholder": "عنوان الشارع، المدينة، البلد...",
+    "companyPlaceholder": "اسم الشركة",
+    "jobPlaceholder": "المنصب أو الدور",
+    "emailPlaceholder": "example@email.com",
+    "phonePlaceholder": "XX-XXXXXXX أو XXX-XXXXXXX",
+    "required": "مطلوب"
+  },
+  "contactCard": {
+    "phone": "الهاتف:",
+    "secondary": "الثانوي:",
+    "email": "البريد الإلكتروني:",
+    "address": "العنوان:",
+    "birthday": "تاريخ الميلاد:",
+    "tags": "العلامات:",
+    "notes": "الملاحظات:"
+  },
+  "language": {
+    "switch": "English",
+    "current": "العربية"
+  },
+  "validation": {
+    "passwordsNoMatch": "كلمات المرور غير متطابقة",
+    "passwordTooShort": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "emailRequired": "البريد الإلكتروني وكلمة المرور مطلوبان",
+    "invalidCredentials": "بيانات اعتماد غير صحيحة",
+    "userExists": "يوجد مستخدم بهذا البريد الإلكتروني أو اسم المستخدم بالفعل",
+    "serverError": "حدث خطأ في الخادم",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "unknownError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى."
+  },
+  "footer": {
+    "copyright": "تطبيق دفتر الهاتف، قسم علوم البرمجة, كلية المجتمع صنعاء 2025"
+  }
+}
